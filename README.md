@@ -51,7 +51,7 @@ VSCode Ultimate Removal Tool is a comprehensive Python application designed to c
 #### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vscode-ultimate-removal-tool.git
+git clone https://github.com/seylabicode/vscode-ultimate-removal-tool.git
 
 # Navigate to directory
 cd vscode-ultimate-removal-tool
@@ -147,7 +147,7 @@ For support, questions, or bug reports:
 #### شروع سریع
 ```bash
 # کلون کردن مخزن
-git clone https://github.com/yourusername/vscode-ultimate-removal-tool.git
+git clone https://github.com/seylabicode/vscode-ultimate-removal-tool.git
 
 # رفتن به پوشه
 cd vscode-ultimate-removal-tool
@@ -194,7 +194,7 @@ VSCode终极删除工具是一个全面的Python应用程序，专为从Windows�
 #### 快速开始
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/vscode-ultimate-removal-tool.git
+git clone https://github.com/seylabicode/vscode-ultimate-removal-tool.git
 
 # 进入目录
 cd vscode-ultimate-removal-tool
@@ -337,7 +337,7 @@ We welcome contributions! Here's how you can help:
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/vscode-ultimate-removal-tool.git
+git clone https://github.com/seylabicode/vscode-ultimate-removal-tool.git
 
 # Install development dependencies
 pip install -r requirements-dev.txt
