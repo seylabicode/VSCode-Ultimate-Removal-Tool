@@ -1,0 +1,42 @@
+# Development dependencies for VSCode Ultimate Removal Tool
+# Install with: pip install -r requirements-dev.txt
+
+# Include main requirements
+-r requirements.txt
+
+# Testing
+pytest>=6.0.0                    # Testing framework
+pytest-cov>=2.10.0              # Coverage plugin for pytest
+pytest-mock>=3.6.0              # Mock plugin for pytest
+pytest-xdist>=2.2.0             # Distributed testing plugin
+
+# Code Quality
+flake8>=3.8.0                   # Code linting
+black>=21.0.0                   # Code formatting
+isort>=5.8.0                    # Import sorting
+mypy>=0.800                     # Static type checking
+bandit>=1.7.0                   # Security linting
+
+# Documentation
+sphinx>=4.0.0                   # Documentation generator
+sphinx-rtd-theme>=0.5.0         # Read the Docs theme
+myst-parser>=0.15.0             # Markdown parser for Sphinx
+
+# Development Tools
+pre-commit>=2.12.0              # Pre-commit hooks
+tox>=3.20.0                     # Testing in multiple environments
+wheel>=0.36.0                   # Wheel building
+twine>=3.4.0                    # Package uploading
+
+# Debugging
+pdb++>=0.10.0                   # Enhanced debugger
+ipython>=7.20.0                 # Interactive Python shell
+ipdb>=0.13.0                    # IPython debugger
+
+# Performance
+memory-profiler>=0.58.0         # Memory usage profiling
+line-profiler>=3.2.0           # Line-by-line profiling
+
+# Windows-specific development tools
+pywin32>=227; sys_platform == "win32"     # Windows API access
+wmi>=1.5.1; sys_platform == "win32"       # Windows Management Instrumentation

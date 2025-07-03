@@ -1,0 +1,39 @@
+# VSCode Ultimate Removal Tool - Dependencies
+# Professional Python Edition v3.0
+# Developer: @aliseylabi
+
+# Core dependencies
+psutil>=5.8.0          # Process and system utilities
+                       # Used for: Process management, system information
+
+# Optional GUI dependencies (usually included with Python)
+# tkinter                # GUI framework (built-in with most Python installations)
+
+# Windows-specific dependencies (built-in)
+# winreg                 # Windows registry access (built-in on Windows)
+# ctypes                 # Windows API access (built-in)
+
+# Standard library dependencies (built-in)
+# os                     # Operating system interface
+# sys                    # System-specific parameters and functions
+# json                   # JSON encoder and decoder
+# time                   # Time-related functions
+# shutil                 # High-level file operations
+# subprocess             # Subprocess management
+# uuid                   # UUID objects
+# hashlib                # Secure hash and message digest algorithms
+# threading              # Thread-based parallelism
+# tempfile               # Generate temporary files and directories
+# zipfile                # Work with ZIP archives
+# sqlite3                # SQLite database interface
+# pathlib                # Object-oriented filesystem paths
+# datetime               # Basic date and time types
+# logging                # Logging facility for Python
+# webbrowser             # Convenient Web-browser controller
+
+# Development dependencies (install with: pip install -r requirements-dev.txt)
+# pytest>=6.0.0         # Testing framework
+# pytest-cov>=2.10.0    # Coverage plugin for pytest
+# flake8>=3.8.0         # Code linting
+# black>=21.0.0         # Code formatting
+# mypy>=0.800           # Static type checking
